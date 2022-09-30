@@ -142,7 +142,7 @@ function fetchCatImage() {
       .then(response => response.json())
       .then(data => {
         btn.innerHTML = `<div id="todos-list">
-        <img style= "center" src="${data.file}"/>
+        <img style= "margin: 0 auto;" src="${data.file}"/>
         </div>`;
     })  
   }
